@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b8bfba7-2eea-42b3-a436-c899c76f9e0d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/practice/Simple.java" afterPath="$PROJECT_DIR$/src/com/practice/Simple.java" />
     </list>
     <ignored path="practicegit.iws" />
