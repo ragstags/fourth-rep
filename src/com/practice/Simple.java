@@ -9,5 +9,6 @@ public class Simple {
         System.out.println("hello world");
         System.out.println("some more practice");
         int a =50;
+        int b=76;
     }
 }
