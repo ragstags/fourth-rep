@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b8bfba7-2eea-42b3-a436-c899c76f9e0d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/practicegit/com/practice/hello.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practicegit/com/exceptions/Application.class" afterPath="$PROJECT_DIR$/out/production/practicegit/com/exceptions/Application.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="practicegit.iws" />
@@ -26,16 +24,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Simple.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/practice/Simple.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/exceptions/Application.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -86,14 +74,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConceptThreads.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConceptThreads.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/threading/ConceptThreads.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+            <state relative-caret-position="465">
+              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding>
                 <element signature="e#486#487#0" expanded="true" />
                 <element signature="e#526#527#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloWorld.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/com/Collections/HelloWorld.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+              <folding>
+                <element signature="e#150#151#0" expanded="true" />
+                <element signature="e#199#200#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,6 +161,7 @@
         <option value="$PROJECT_DIR$/src/com/com/Collections/Animals.java" />
         <option value="$PROJECT_DIR$/src/com/com/Collections/Applications.java" />
         <option value="$PROJECT_DIR$/src/com/threading/ConceptThreads.java" />
+        <option value="$PROJECT_DIR$/src/com/com/Collections/HelloWorld.java" />
       </list>
     </option>
   </component>
@@ -233,10 +235,6 @@
               <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="threading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -253,6 +251,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Collections" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -677,7 +679,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1366" height="703" extended-state="6" />
+    <frame x="0" y="23" width="1366" height="703" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1005,11 +1007,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/threading/ConceptThreads.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+        <state relative-caret-position="465">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
             <element signature="e#486#487#0" expanded="true" />
             <element signature="e#526#527#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/com/Collections/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding>
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
           </folding>
         </state>
       </provider>
