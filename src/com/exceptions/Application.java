@@ -12,27 +12,26 @@ public class Application {
         File file = new File("myfile.txt");
         FileReader fileReader = new FileReader(file);
         BufferedReader bufferedReader = new BufferedReader(fileReader);
+
         try {
-            fileReader = new FileReader(file);
-            bufferedReader = new BufferedReader(fileReader);
             String line = bufferedReader.readLine();
             while (line != null) {
-                line = bufferedReader.readLine();
                 System.out.println(line);
+                line = bufferedReader.readLine();
+
             }
-
-
-        } catch (java.io.IOException e) {
+        }catch (FileNotFoundException e) {
             System.out.println("file not found");
-        } finally {
+
+        } catch (IOException e) {
+            System.out.println("Problem reading file "+file.getName());;
+        }
+        finally {
             try {
                 bufferedReader.close();
             } catch (IOException e) {
-                e.printStackTrace();
-
-
+                System.out.println("unable to close the file "+file.getName());
             }
-
         }
     }
 }
